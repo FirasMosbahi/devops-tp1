@@ -2,7 +2,6 @@ const todoService = require("../todo-service");
 
 describe("Todo Service", () => {
   beforeEach(() => {
-    // Clear the in-memory data before each test
     todoService.setTodos([]);
     todoService.setCurrentId(1);
   });
